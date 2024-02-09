@@ -1,0 +1,21 @@
+# bug_ticket_01
+
+Title:
+ - Entering value "1098" on any field results in an Equilateral triangle, regardless of the other fields
+
+Environment:
+ - App executed locally on Chrome version 121.0.6167.160
+
+Preconditions:
+ - Launch app in clean state
+
+Steps to reproduce:
+ - Enter integer value "1098" on any field
+ - Either enter any other integer values in the other fields or leave them empty
+ - Click on "Find out!" button
+
+Expected behaviour:
+ - App should offer the correct output, either the triangle type or the "Not a triange" message
+
+Actual behaviour:
+ - App always shows the message "This is an Equilateral Triangle!"
