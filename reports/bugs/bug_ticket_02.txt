@@ -1,0 +1,20 @@
+# bug_ticket_02
+
+Title:
+ - Entering the same value between 10 and 20 in all fields results in an incorrect output
+
+Environment:
+ - App executed locally on Chrome version 121.0.6167.160
+
+Preconditions:
+ - Launch app in clean state
+
+Steps to reproduce:
+ - Enter the same integer value between 10 and 20 (e.g. 15) in all fields
+ - Click on "Find out!" button
+
+Expected behaviour:
+ - App should offer the correct output: "This is an Equilateral Triangle!"
+
+Actual behaviour:
+ - App shows the message "This is not a triangle!"
