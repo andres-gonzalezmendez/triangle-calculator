@@ -15,7 +15,7 @@ Steps to reproduce:
  - Click on "Find out!" button
 
 Expected behaviour:
- - App should offer the correct output, either the triangle type or the "Not a triange" message
+ - App should offer the correct output, either the triangle type or the "Not a triangle" message
 
 Actual behaviour:
  - App always shows the message "This is an Equilateral Triangle!"
